@@ -3,8 +3,8 @@ import telebot
 from flask import Flask, request, abort
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-RENDER_EXTERNAL_URL = os.getenv("RENDER_EXTERNAL_URL")
+TOKEN = os.getenv("8329978625:AAFqNQxK_BEra7zuguvjTH6O_7wj28jsjsA")
+RENDER_EXTERNAL_URL = os.getenv("https://telegram-driving-school-bot.onrender.com")
 
 if not TOKEN:
     raise ValueError("Missing TELEGRAM_BOT_TOKEN environment variable")
